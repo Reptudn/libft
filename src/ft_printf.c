@@ -3,15 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jkauker <jkauker@student.42heilbrnn.de>    +#+  +:+       +#+        */
+/*   By: jkauker <jkauker@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/08 21:27:09 by jonask            #+#    #+#             */
-/*   Updated: 2023/10/25 11:15:51 by jkauker          ###   ########.fr       */
+/*   Updated: 2024/03/19 11:44:25 by jkauker          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "./utils/specifiers.h"
-#include "ft_printf.h"
+#include "../include/ft_printf.h"
 #include <limits.h>
 #include <sys/_types/_va_list.h>
 
@@ -68,10 +68,3 @@ int	ft_printf(const char *str, ...)
 	va_end(keys);
 	return (writecount);
 }
-
-// int	main(void)
-// {
-// 	printf("\n%d", ft_printf("%x", LONG_MAX));
-// 	printf("\n-------------\n");
-// 	printf("\n%d", printf("%x", LONG_MAX));
-// }
