@@ -6,7 +6,7 @@
 #    By: jkauker <jkauker@student.42heilbronn.de    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/08 12:22:34 by jonask            #+#    #+#              #
-#    Updated: 2024/03/19 11:55:58 by jkauker          ###   ########.fr        #
+#    Updated: 2024/03/19 12:01:29 by jkauker          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,7 +19,7 @@ CFILES 	= src/ft_bzero.c src/ft_itoa.c src/ft_strrchr.c src/ft_atoi.c src/ft_cal
 			src/ft_substr.c src/ft_tolower.c src/ft_toupper.c src/ft_isspace.c \
 			src/get_next_line.c src/get_next_line_utils.c \
 			src/ft_printf.c src/utils/conversion.c src/utils/base_system_conversion.c src/utils/helper.c src/utils/itoa.c src/utils/ltoa.c src/utils/put_hex.c
-OBJS	:= $(SRCS:.c=.o)
+OBJS	= $(CFILES:.c=.o)
 CC		= cc
 
 .PHONY: all clean fclean re
@@ -28,7 +28,7 @@ all: $(NAME)
 
 $(NAME): $(OBJS)
 		@printf "\033[0;32m[LIBFT] Compiling libft...\033[0m\n"
-		ar -rcs $(NAME) $(OBJS)
+		@ar -rcs $(NAME) $(OBJS)
 		@printf "\033[0;32m[LIBFT] libft compiled successfully!\033[0m\n"
 
 clean:
