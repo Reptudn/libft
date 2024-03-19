@@ -1,0 +1,7 @@
+*.o
+*.a
+.DS_Store
+.vscode/
+.obsidian/
+/obj
+*.dSYM
