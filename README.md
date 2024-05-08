@@ -5,6 +5,8 @@ Libft Bonus is kinda useless so it's not in here but either way this lib has bet
 
 ## Includes
 - [ ] normal libft functions (some might have been improved)
+- [ ] get_next_line
+- [ ] ft_printf
 - [ ] Dynamic Pointer Garbage Collector
 - [ ] Linked List
 - [ ] Stacks
@@ -17,3 +19,6 @@ Libft Bonus is kinda useless so it's not in here but either way this lib has bet
 ### Code
 - just include the libft.h file
 
+
+## Why are some functions written so complex for no reason?
+That's simple. When i first started i wasn't able to write compact code and now im too lazy to change the more complex functions
