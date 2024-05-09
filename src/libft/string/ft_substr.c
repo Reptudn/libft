@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../../include/libft.h"
 
 static void	makesub(char *dst, const char *src, size_t size)
 {

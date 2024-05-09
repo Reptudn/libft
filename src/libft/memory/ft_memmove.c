@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../../include/libft.h"
 
 static void	move(unsigned char *dest, unsigned char *src, size_t n)
 {

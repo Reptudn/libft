@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../../../include/libft.h"
 
 static int	get_word_count(const char *s, char splitter)
 {
@@ -106,13 +106,3 @@ char	**ft_split(const char *s, char c)
 		return (0);
 	return (strs);
 }
-
-// int	main(void)
-// {
-// 	char **strs = ft_split("^^^1^^2a,^^^^3^^^^--h^^^^", '^');
-// 	for (int i = 0; strs[i] != 0; i++)
-// 	{
-// 		printf("%s\n", strs[i]);
-// 	}
-// 	return (0);
-// }
