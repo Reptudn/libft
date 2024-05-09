@@ -3,6 +3,9 @@ improved libft with more functions than the one from the 42 libft project.
 *Yes it's norm conform*
 Libft Bonus is kinda useless so it's not in here but either way this lib has better functions for that
 
+## Status
+Still in development. Can't be used at all right now.
+
 ## Includes
 - [ ] normal libft functions (some might have been improved)
 - [ ] get_next_line

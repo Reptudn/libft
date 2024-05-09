@@ -63,12 +63,3 @@ char	*ft_strfixedtrim(const char *s1, const char *set)
 	}
 	return (str);
 }
-
-/*
-#include <stdio.h>
-int	main(int argc, char **argv)
-{
-	argc++;
-	printf("%s\n", ft_strtrim(argv[1], argv[2]));
-}
-*/
